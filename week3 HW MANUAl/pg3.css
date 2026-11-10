@@ -1,0 +1,21 @@
+body{
+    background-color: #DFD4BF
+}
+
+h1{   text-align: center;
+    color:#e67483; 
+    font-family: monospace; 
+
+
+}
+
+p{
+ text-align: center;
+ width: 600px;
+  margin: 30px auto; 
+  font-family: monospace; 
+  font-size: 18px;
+  line-height: 2;
+  color:rgb(101, 143, 216); 
+}
+ 
