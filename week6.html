@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Position property</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			height: 200vh;
+		}
+
+		.large {
+			background-color: rgb(189, 19, 61);
+			width: 455px;
+			height: 500px;
+			position: relative;
+			top: 40px;
+			left: 30px;
+			border-bottom: 45px solid rgb(145, 22, 98);
+			
+			/* position: fixed; */
+		}
+
+		
+			
+		
+	
+		
+		.small {
+			width: 150px;
+			height: 290px;
+			background-color: rgb(0, 155, 0);
+			padding: 10px;
+				position: relative;
+			top: -735px;
+			left: 190px; 
+		}
+		.window {
+			width: 60px;
+			height: 270px;
+			background-color: greenyellow;
+			display: inline-block;
+		
+		}
+		.window:nth-of-type(1) {
+			margin-right: 6px;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div class="large"></div>
+	<div class="medium"></div>
+	<div class="small">
+		<div class="window"></div>
+		<div class="window"></div>
+	</div>
+	<div class="connector">
+		<div class="connector__corner"
+	</div>
+</body>
+
+</html>
